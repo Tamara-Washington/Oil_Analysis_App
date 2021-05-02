@@ -1,0 +1,13 @@
+gunicorn
+Flask
+psycopg2-binary
+python-dateutil
+Flask-SQLAlchemy
+SQLAlchemy
+Werkzeug
+pandas
+MarkupSafe
+numpy
+matplotlib
+seaborn
+pyplot
