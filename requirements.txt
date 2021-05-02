@@ -10,4 +10,3 @@ MarkupSafe
 numpy
 matplotlib
 seaborn
-pyplot
