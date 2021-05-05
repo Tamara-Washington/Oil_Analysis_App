@@ -8,8 +8,8 @@ import pickle
 
 app = Flask(__name__)
 
-my_new_model = pickle.load(open('static/Machine_Learning/finalized_model.sav', 'rb'))
-x_scaler = pickle.load(open('static/Machine_Learning/saved_x_scaler.sav', 'rb'))
+my_new_model = pickle.load(open('Machine_Learning/finalized_model.sav', 'rb'))
+x_scaler = pickle.load(open('Machine_Learning/saved_x_scaler.sav', 'rb'))
 
 
 #endpoint
